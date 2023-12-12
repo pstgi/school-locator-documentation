@@ -49,8 +49,8 @@ return a JSON response similar to the one below:
 {
     "message": "Pong",
     "status": "Service is running.",
-    "appVersion": "3.9.1",
-    "serverTime": "2023-11-30T11:00:25.1632332+00:00",
+    "appVersion": "3.9.4",
+    "serverTime": "2023-12-12T09:54:32.3487501+00:00",
     "environment": "Production"
 }
 ```
@@ -96,8 +96,8 @@ need to add the following two lines in the header section (between `<head>` and 
 of your HTML page:
 
 ```html
-<link href="dist/sps-school-locator.css?v=1.3" rel="stylesheet" />
-<script src="dist/sps-school-locator.js?v=1.3"></script>
+<link href="dist/sps-school-locator.css?v=1.4" rel="stylesheet" />
+<script src="dist/sps-school-locator.js?v=1.4"></script>
 ```
 
 It is recommended to change the value of the `v` parameter located after the `?v=` to the
@@ -225,8 +225,8 @@ a JSON response similar to the following one:
 {
     "message": "Pong",
     "status": "Service is running.",
-    "appVersion": "3.9.1",
-    "serverTime": "2023-11-30T11:00:25.1632332+00:00",
+    "appVersion": "3.9.4",
+    "serverTime": "2023-12-12T09:54:32.3487501+00:00",
     "environment": "Production"
 }
 ```
