@@ -32,8 +32,8 @@ To use the widget, you need to:
 The following features are supported by the widget:
 
 - [x] Search of schools by typing an address
-- [x] Retrieve study areas for the grades offered by schools
-- [x] Display schools and study areas on a map
+- [x] Retrieve school boundaries for the grades offered by schools
+- [x] Display schools and school boundaries on a map
 - [x] Display notices to users for specific schools, programs, and grades
 
 For more details on features and updates see the [change log](CHANGELOG.md).
@@ -54,7 +54,7 @@ https://api.spsplus.ca/api/test/ping
 
 In addition, you can confirm that your website code can properly communicate to the API server.
 Use any JavaScript component that can call an end-point. Send a GET HTTP Request to the URL
-above with no parameters. If your request is received by the API server, it will immediately
+above with no parameters. If your request is recieved by the API server, it will immediately
 return a JSON response similar to the one below:
 
 ```json
@@ -148,13 +148,13 @@ The following parameters customize the look and feel of the widget:
    Dev Center website](https://www.bingmapsportal.com/); if omitted, a fallback to
    [Open Street Map](https://www.openstreetmap.org/) raster is used.
 
-#### Example
+#### Examples
 
 The following example shows how to integrate the widget in your website. It will have a blue accent
 color, use the default boundary color, and use the default API server URL. The widget will use
 the default images for the map pins that came with the downloaded package.
 
-> All keys in the examples below are fake and will not work. You must use the keys you obtained yourself.
+> All keys in the examples below are fake and will not work. You must use keys you obtaine yourself.
 
 ```html
 <sps-school-locator
@@ -247,7 +247,7 @@ All HTTP Requests must contain the following header parameters:
 
 - `Authorization` - (required) API Key you obtained from PSTGI
 - `X-Api-Version` - (required) version of the end-point set you want to use. Currently, the latest and
-   recommended version is `3.0`. To use another one, first comform it with the PSTGI team.
+   recommended version is `3.0`. To use another one, first comfirm with the PSTGI team.
 
 ### API End-points
 
@@ -261,9 +261,9 @@ If you do not recieve a response from the server, check for the error message in
 Most common issues are related to not having the `Authorization` API key or the `X-Api-Version`
 value in the header.
 
-Always try the [Development](https://dev.spsplus.ca/api/test/ping) or
-[Production](https://api.spsplus.ca/api/test/ping) test URL in your browser to confirm the
-API server is running and you can access it.
+Always try the test URL in your browser for the [Development](https://dev.spsplus.ca/api/test/ping)
+or the [Production](https://api.spsplus.ca/api/test/ping) environment to confirm the API server
+is running and you can access it.
 
 
 Good luck!
