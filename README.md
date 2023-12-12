@@ -31,7 +31,8 @@ For more details on features and updates see the [change log](CHANGELOG.md).
 To use the widget, you need to:
 
 1. Get an API key from PSTGI.
-1. Download the latest release from the [/Downloads](./Downloads) folder.
+1. Download the latest release package from the [/Downloads](./Downloads) folder.
+1. Unzip the package in the root of your website, which will create a `/dist` folder.
 1. [Add a reference](#add-references-to-the-widgets-files) to the widget's files in your page.
 1. [Add the HTML element](#add-the-widgets-html-element) of the widget to your page.
 1. Load the page.
@@ -92,9 +93,9 @@ widget often to fix bugs and add new features.
 The widget is built using vanilla HTML, CSS, and JavaScript only. You will not need any 
 third party libraries to use it or the API.
 
-You need to unzip the downloaded package and copy to a `/dist` folder created specifically
-for its files. To avoid issues with the integration, it is recommended to keep the widget's 
-`/dist` folder in the root folder of your website.
+You need to unzip the downloaded package in the root of your website, which will create a
+`/dist` folder with all needed files. To avoid issues with the integration, it is recommended 
+to keep the widget's `/dist` folder in the root folder of your website.
 
 > If you cannot create or place a `/dist` folder in the root folder of your website, you will 
 need to change the paths to the widget's files in the HTML code below in several places - 
