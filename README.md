@@ -1,18 +1,18 @@
 # SPS School Locator - Documentation
 
 This project contains the documentation and distributables for the School Locator widget.
-It is intended for developers working for school boards who want to use the widget in 
+It is intended for developers working for school boards who want to use the widget in
 their own website.
 
 The intent for the SPS School Locator widget is to be used by school boards to display
 the schools in their district on a map.
 
-The widget does not need any code to run on your server-side. It is a pure client-side 
+The widget does not need any code to run on your server-side. It is a pure client-side
 code that runs in the browser of your users.
 
 ## License
 
-This project is intended only for PSTGI customers. The specific license is managed by 
+This project is intended only for PSTGI customers. The specific license is managed by
 the specific contract between PSTGI and the customer and [this license file](LICENSE.md).
 
 ## TL;DR
@@ -22,8 +22,9 @@ To use the widget, you need to:
 1. Get an API key from PSTGI.
 1. Download the latest release package from the [/Downloads](./Downloads) folder.
 1. Unzip the package in the root of your website, which will create a `/dist` folder.
-1. [Add a reference](#add-references-to-the-widgets-files) to the widget's files in your page.
-1. [Add the HTML element](#add-the-widgets-html-element) of the widget to your page.
+1. [Add a reference](#add-references-to-the-widgets-files) to the widget's files in the `<head>` of your page.
+1. [Add the HTML element](#add-the-widgets-html-element) of the widget to the `<body>` of your page.
+1. Add the API key to the HTML element.
 1. Load the page.
 
 ## Features
@@ -46,14 +47,14 @@ your website and dataset on it. You will also need to download the package with 
 
 ### Test connection to the API server
 
-First, check if you have access to the API server. Navigate to the following URL. It does not 
+First, check if you have access to the API server. Navigate to the following URL. It does not
 require authorization.
 
 https://api.spsplus.ca/api/test/ping
 
-In addition, you can confirm that your website code can properly communicate to the API server. 
+In addition, you can confirm that your website code can properly communicate to the API server.
 Use any JavaScript component that can call an end-point. Send a GET HTTP Request to the URL
-above with no parameters. If your request is received by the API server, it will immediately 
+above with no parameters. If your request is received by the API server, it will immediately
 return a JSON response similar to the one below:
 
 ```json
@@ -72,9 +73,9 @@ You can embed the SPS School Locator widget in any HTML page. To do that, you ne
 
 1. Download the latest version of the widget.
 1. Unzip the downloaded package and copy the files to a `/dist` folder on your webserver.
-1. Add a reference to the main JavaScript file as well as the main stylesheet file to your page. 
+1. Add a reference to the main JavaScript file as well as the main stylesheet file to your page.
 1. Add the widget tag to the body of the page.
- 
+
 The widget will automatically load the data from the API server and display
 the map with the schools with the programs and grades they offer.
 
@@ -89,21 +90,21 @@ widget often to fix bugs and add new features.
 
 #### Place the widget in your website
 
-The widget is built using vanilla HTML, CSS, and JavaScript only. You will not need any 
+The widget is built using vanilla HTML, CSS, and JavaScript only. You will not need any
 third party libraries to use it or the API.
 
 You need to unzip the downloaded package in the root of your website, which will create a
-`/dist` folder with all needed files. To avoid issues with the integration, it is recommended 
+`/dist` folder with all needed files. To avoid issues with the integration, it is recommended
 to keep the widget's `/dist` folder in the root folder of your website.
 
-> If you cannot create or place a `/dist` folder in the root folder of your website, you will 
-need to change the paths to the widget's files in the HTML code below in several places - 
-both links in the `<head>` and the `images-root-url` parameter in the widget's HTML element. 
+> If you cannot create or place a `/dist` folder in the root folder of your website, you will
+need to change the paths to the widget's files in the HTML code below in several places -
+both links in the `<head>` and the `images-root-url` parameter in the widget's HTML element.
 
 ##### Add references to the widget's files
 
-To load the necessary script (JS) and style (CSS) files for the user of your webpage, you 
-need to add the following two lines in the header section (between `<head>` and `</head>`) 
+To load the necessary script (JS) and style (CSS) files for the user of your webpage, you
+need to add the following two lines in the header section (between `<head>` and `</head>`)
 of your HTML page:
 
 ```html
@@ -127,8 +128,8 @@ same page.
 , where you should replace `myApiKey` with the API Key you obtained from PSTGI.
 
 At this point, if you load the page in your browser, you should see the widget with the search
-box. Try typing an address in it and see if the widget can suggest addresses based on its 
-autocomplete feature. Selecting an address would display the schools in the area offering 
+box. Try typing an address in it and see if the widget can suggest addresses based on its
+autocomplete feature. Selecting an address would display the schools in the area offering
 different programs and grades.
 
 ### Customizing the widget
@@ -141,10 +142,10 @@ The following parameters customize the look and feel of the widget:
 - `api-url` - (optional) API server base URL (default: `https://api.spsplus.ca`); for development,
    you can use `https://dev.spsplus.ca`. Consider that the data you retieve from the development
    environment may be different from the production environment.
-- `images-root-url` - (optional) path to images folder containing pin images and shadow; must end 
+- `images-root-url` - (optional) path to images folder containing pin images and shadow; must end
    with a `/`; (default: `dist/images/`).
 - `bing-maps-key` - (optional) key for Bing Maps that you obtained directly from [Microsoft Bing
-   Dev Center website](https://www.bingmapsportal.com/); if omitted, a fallback to 
+   Dev Center website](https://www.bingmapsportal.com/); if omitted, a fallback to
    [Open Street Map](https://www.openstreetmap.org/) raster is used.
 
 #### Example
@@ -190,19 +191,19 @@ https://dev.spsplus.ca/
 
 ### Updating an existing page
 
-To update a page that already uses the widget, you need to first download the latest version 
+To update a page that already uses the widget, you need to first download the latest version
 following the instructions above. Then, you need to remove the old files from the `/dist` folder
 and place the new ones in the same folder. If you have added your own files to the folder,
 where the widget files are located, you need to make sure that you keep them or add them
 back to their original locations.
 
-Finally, you need to update the version number in the `<head>` section of your page. This 
+Finally, you need to update the version number in the `<head>` section of your page. This
 ensures that your users will download the latest version of the widget and not use the
 cached version in their browsers.
 
 The version is specified as a `v` parameter of the `href` and `src` attributes of the
 `<link>` and `<script>` tags respectively. Use the version number of the downloaded package.
-For example, if you downloaded version 1.4, you need to change the value after `?v=` in 
+For example, if you downloaded version 1.4, you need to change the value after `?v=` in
 the following lines:
 
 ```html
@@ -216,7 +217,7 @@ follow the version number of the downloaded package.
 
 ## Call the API directly
 
-You can directly call the API server that the widget uses to retrieve the same data. 
+You can directly call the API server that the widget uses to retrieve the same data.
 
 First, test if you can call the test API end-point that returns some basic information about the environment.
 
@@ -227,7 +228,7 @@ with the same requests:
 
 https://dev.spsplus.ca/
 
-Calling the URL above from any HTTP client component with a GET HTTP Request should return 
+Calling the URL above from any HTTP client component with a GET HTTP Request should return
 a JSON response similar to the following one:
 
 ```json
@@ -245,7 +246,7 @@ a JSON response similar to the following one:
 All HTTP Requests must contain the following header parameters:
 
 - `Authorization` - (required) API Key you obtained from PSTGI
-- `X-Api-Version` - (required) version of the end-point set you want to use. Currently, the latest and 
+- `X-Api-Version` - (required) version of the end-point set you want to use. Currently, the latest and
    recommended version is `3.0`. To use another one, first comform it with the PSTGI team.
 
 ### API End-points
@@ -260,8 +261,8 @@ If you do not recieve a response from the server, check for the error message in
 Most common issues are related to not having the `Authorization` API key or the `X-Api-Version`
 value in the header.
 
-Always try the [Development](https://dev.spsplus.ca/api/test/ping) or 
-[Production](https://api.spsplus.ca/api/test/ping) test URL in your browser to confirm the 
+Always try the [Development](https://dev.spsplus.ca/api/test/ping) or
+[Production](https://api.spsplus.ca/api/test/ping) test URL in your browser to confirm the
 API server is running and you can access it.
 
 
