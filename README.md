@@ -15,17 +15,6 @@ code that runs in the browser of your users.
 This project is intended only for PSTGI customers. The specific license is managed by 
 the specific contract between PSTGI and the customer and [this license file](LICENSE.md).
 
-## Features
-
-The following features are supported by the widget:
-
-- [x] Search of schools by typing an address
-- [x] Retrieve study areas for the grades offered by schools
-- [x] Display schools and study areas on a map
-- [x] Display notices to users for specific schools, programs, and grades
-
-For more details on features and updates see the [change log](CHANGELOG.md).
-
 ## TL;DR
 
 To use the widget, you need to:
@@ -37,6 +26,16 @@ To use the widget, you need to:
 1. [Add the HTML element](#add-the-widgets-html-element) of the widget to your page.
 1. Load the page.
 
+## Features
+
+The following features are supported by the widget:
+
+- [x] Search of schools by typing an address
+- [x] Retrieve study areas for the grades offered by schools
+- [x] Display schools and study areas on a map
+- [x] Display notices to users for specific schools, programs, and grades
+
+For more details on features and updates see the [change log](CHANGELOG.md).
 
 ## Using the widget
 
@@ -132,7 +131,7 @@ box. Try typing an address in it and see if the widget can suggest addresses bas
 autocomplete feature. Selecting an address would display the schools in the area offering 
 different programs and grades.
 
-#### Customizing the widget
+### Customizing the widget
 
 The following parameters customize the look and feel of the widget:
 

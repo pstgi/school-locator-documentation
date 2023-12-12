@@ -2,6 +2,19 @@
 
 These are the changes that are parts of each version that has been released.
 
+## v.3.9.4 (2023-12-06)
+
+- Optimized query for retrieving schools by address ID.
+
+## v.3.9.3 (2023-12-05)
+
+- Fix mixing of school notices between tenants.
+
+## v.3.9.2 (2023-12-04)
+
+- Added grouping and visibility of Program Types from its alias table.
+- Fixed polution of override messages between tenants.
+
 ## v.3.9.1 (2023-11-29)
 
 - Included tenant cache reset with global one.
@@ -67,7 +80,7 @@ These are the changes that are parts of each version that has been released.
 ## v.3.2.2 (2023-01-05)
 
 - Sort school results by program.
- 
+
 ## v.3.2.1 (2022-11-30)
 
 - Data caching and optimizations.
