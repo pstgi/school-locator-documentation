@@ -139,8 +139,6 @@ The following parameters customize the look and feel of the widget:
 - `api-key` - (required) API Key you obtained from PSTGI
 - `primary-color` - (required) accent color to be used for a better integration into your page
 - `boundary-color` - (optional) fill color for boundaries (default: `#3388ff`)
-- `cut-out-boundary` - (optional) when set to `true`, boundaries are made into a cut out polygon 
-   graying out all but the boundary; `boundary-color` is then ignored
 - `api-url` - (optional) API server base URL (default: `https://api.spsplus.ca`); for development,
    you can use `https://dev.spsplus.ca`. Consider that the data you retieve from the development
    environment may be different from the production environment.
