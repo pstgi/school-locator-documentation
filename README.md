@@ -26,6 +26,17 @@ The following features are supported by the widget:
 
 For more details on features and updates see the [change log](CHANGELOG.md).
 
+## TL;DR
+
+To use the widget, you need to:
+
+1. Get an API key from PSTGI.
+1. Download the latest release from the [/Downloads](./Downloads) folder.
+1. [Add a reference](#add-references-to-the-widgets-files) to the widget's files in your page.
+1. [Add the HTML element](#add-the-widgets-html-element) of the widget to your page.
+1. Load the page.
+
+
 ## Using the widget
 
 ### Prerequisites
@@ -244,6 +255,17 @@ All HTTP Requests must contain the following header parameters:
 To see a list of all end-points available in the API, use the Swagger page on the DEV server:
 
 https://dev.spsplus.ca/swagger/
+
+### Resolving issues
+
+If you do not recieve a response from the server, check for the error message in the responce.
+Most common issues are related to not having the `Authorization` API key or the `X-Api-Version`
+value in the header.
+
+Always try the [Development](https://dev.spsplus.ca/api/test/ping) or 
+[Production](https://api.spsplus.ca/api/test/ping) test URL in your browser to confirm the 
+API server is running and you can access it.
+
 
 Good luck!
 
