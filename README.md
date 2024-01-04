@@ -223,11 +223,6 @@ First, test if you can call the test API end-point that returns some basic infor
 
 https://api.spsplus.ca/api/test/ping
 
-While developing your client, you can use the Development environment. To do that, use the following domain
-with the same requests:
-
-https://dev.spsplus.ca/
-
 Calling the URL above from any HTTP client component with a GET HTTP Request should return
 a JSON response similar to the following one:
 
@@ -240,6 +235,15 @@ a JSON response similar to the following one:
     "environment": "Production"
 }
 ```
+
+While developing your client, you can use the Development environment. To do that, use the following domain
+with the same requests:
+
+https://dev.spsplus.ca/
+
+The Production environment is available at:
+
+https://api.spsplus.ca/
 
 ### API Parameters
 
