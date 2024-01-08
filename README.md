@@ -123,9 +123,9 @@ you need to add the following line in the body section (between `<body>` and `</
 same page.
 
 ```html
-<sps-school-locator api-key="myApiKey"></sps-school-locator>
+<sps-school-locator api-key="my-api-key-here"></sps-school-locator>
 ```
-, where you should replace `myApiKey` with the API Key you obtained from PSTGI.
+, where you should replace `my-api-key-here` with the API Key you obtained from PSTGI.
 
 At this point, if you load the page in your browser, you should see the widget with the search
 box. Try typing an address in it and see if the widget can suggest addresses based on its
@@ -163,8 +163,8 @@ the default images for the map pins that came with the downloaded package.
 </sps-school-locator>
 ```
 
-The following example will also set a Bing Maps key obtained from the Microsoft Bing Dev Center website.
-It will display Bing Maps instead of Open Street Map.
+The following example will also set a Bing Maps key obtained from the Microsoft Bing Dev Center
+website. It will display Bing Maps instead of Open Street Map.
 
 ```html
 <sps-school-locator
@@ -174,7 +174,7 @@ It will display Bing Maps instead of Open Street Map.
 </sps-school-locator>
 ```
 
-The following example will also set a dark blue boundary color and use the development environment.
+The following example will use the development environment and also set a dark blue boundary color.
 
 ```html
 <sps-school-locator
@@ -184,10 +184,6 @@ The following example will also set a dark blue boundary color and use the devel
 	api-url="https://dev.spsplus.ca">
 </sps-school-locator>
 ```
-
-> While developing your client, you can use the Development environment. To do that, use the following domain
-https://dev.spsplus.ca/
-
 
 ### Updating an existing page
 
@@ -219,7 +215,8 @@ follow the version number of the downloaded package.
 
 You can directly call the API server that the widget uses to retrieve the same data.
 
-First, test if you can call the test API end-point that returns some basic information about the environment.
+First, test if you can call the test API end-point that returns some basic information about the 
+environment.
 
 https://api.spsplus.ca/api/test/ping
 
@@ -236,28 +233,34 @@ a JSON response similar to the following one:
 }
 ```
 
-While developing your client, you can use the Development environment. To do that, use the following domain
-with the same requests:
-
-https://dev.spsplus.ca/
-
-The Production environment is available at:
-
-https://api.spsplus.ca/
+> While developing and testing your web-client, you should use the Development environment. To do
+that, use the domain https://dev.spsplus.ca/ instead. The Production environment is available at 
+https://api.spsplus.ca/.
 
 ### API Parameters
 
 All HTTP Requests must contain the following header parameters:
 
 - `Authorization` - (required) API Key you obtained from PSTGI
-- `X-Api-Version` - (required) version of the end-point set you want to use. Currently, the latest and
-   recommended version is `3.0`. To use another one, first comfirm with the PSTGI team.
+- `X-Api-Version` - (required) version of the end-point set you want to use. Currently, the latest
+   and recommended version is `3.0`. To use another one, first comfirm with the PSTGI team.
 
 ### API End-points
 
 To see a list of all end-points available in the API, use the Swagger page on the DEV server:
 
 https://dev.spsplus.ca/swagger/
+
+> The Production server does not have a Swagger page. Use the Development server to see the list of
+end-points and their parameters. Test your web-pages against it first.
+
+You can also visit the sample demo HTML page connected to the Development API server. It 
+demonstrates how to call some of the API end-points directly and the results they produce. To see
+it on the Development environment, use the following URL:
+
+https://dev.spsplus.ca/app/api-demo.html?api-url=https%3A%2F%2Fdev.spsplus.ca&api-key={my-api-key-here}
+
+, where you should replace `{my-api-key-here}` with the API Key you obtained from PSTGI.
 
 ### Resolving issues
 

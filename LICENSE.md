@@ -1,9 +1,10 @@
 # License
 
-##### Copyright (c) 2023 PSTGI 
+**Copyright (c) 2024 PSTGI**
+
 <[licensing@pstgi.com](licensing@pstgi.com)>
 
-##### All Rights Reserved
+**All Rights Reserved**
 
 All information contained herein is, and remains
 the property of PSTGI and its suppliers,
@@ -16,4 +17,4 @@ Unauthorized copying or distribution of this project as a whole or
 any parts and files of it via any medium is strictly forbidden 
 unless prior written permission is obtained from PSTGI.
 
-##### Proprietary and confidential
+**Proprietary and confidential**
