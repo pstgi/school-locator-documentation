@@ -54,7 +54,7 @@ https://api.spsplus.ca/api/test/ping
 
 In addition, you can confirm that your website code can properly communicate to the API server.
 Use any JavaScript component that can call an end-point. Send a GET HTTP Request to the URL
-above with no parameters. If your request is recieved by the API server, it will immediately
+above with no parameters. If your request is received by the API server, it will immediately
 return a JSON response similar to the one below:
 
 ```json
@@ -140,7 +140,7 @@ The following parameters customize the look and feel of the widget:
 - `primary-color` - (required) accent color to be used for a better integration into your page
 - `boundary-color` - (optional) fill color for boundaries (default: `#3388ff`)
 - `api-url` - (optional) API server base URL (default: `https://api.spsplus.ca`); for development,
-   you can use `https://dev.spsplus.ca`. Consider that the data you retieve from the development
+   you can use `https://dev.spsplus.ca`. Consider that the data you reteive from the development
    environment may be different from the production environment.
 - `images-root-url` - (optional) path to images folder containing pin images and shadow; must end
    with a `/`; (default: `dist/images/`).
@@ -237,7 +237,7 @@ a JSON response similar to the following one:
 that, use the domain https://dev.spsplus.ca/ instead. The Production environment is available at 
 https://api.spsplus.ca/.
 
-### API Parameters
+### Required Parameters
 
 All HTTP Requests must contain the following header parameters:
 
@@ -247,15 +247,15 @@ All HTTP Requests must contain the following header parameters:
 
 ### API End-points
 
-To see a list of all end-points available in the API, use the Swagger page on the DEV server:
+To see a list of all end-points available in the API, use the Swagger page on the Development server:
 
 https://dev.spsplus.ca/swagger/
 
 > The Production server does not have a Swagger page. Use the Development server to see the list of
 end-points and their parameters. Test your web-pages against it first.
 
-You can also visit the sample demo HTML page connected to the Development API server. It 
-demonstrates how to call some of the API end-points directly and the results they produce. To see
+You can also visit the sample demo HTML page connected to the Development API server using your API key.
+It demonstrates how to call some of the API end-points directly and the results they produce. To see
 it on the Development environment, use the following URL:
 
 https://dev.spsplus.ca/app/api-demo.html?api-url=https%3A%2F%2Fdev.spsplus.ca&api-key={my-api-key-here}
@@ -264,7 +264,7 @@ https://dev.spsplus.ca/app/api-demo.html?api-url=https%3A%2F%2Fdev.spsplus.ca&ap
 
 ### Resolving issues
 
-If you do not recieve a response from the server, check for the error message in the responce.
+If you do not receive a response from the server, check for the error message in the response.
 Most common issues are related to not having the `Authorization` API key or the `X-Api-Version`
 value in the header.
 
