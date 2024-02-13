@@ -2,6 +2,10 @@
 
 These are the changes that are parts of each version that has been released.
 
+## v.3.9.5 (2024-02-13)
+
+- Fix issue with duplicate school notices.
+
 ## v.3.9.4 (2023-12-06)
 
 - Optimized query for retrieving schools by address ID.
