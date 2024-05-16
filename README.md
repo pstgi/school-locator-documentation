@@ -1,4 +1,4 @@
-# SPS School Locator - Documentation
+# PSTGI's SPS School Locator - Documentation
 
 This project contains the documentation and distributables for the School Locator widget.
 It is intended for developers working for school boards who want to use the widget in
