@@ -20,7 +20,7 @@ the specific contract between PSTGI and the customer and [this license file](LIC
 To use the widget, you need to:
 
 1. Get an API key from PSTGI.
-1. Download the latest release package from the [/Downloads](./Downloads) folder.
+1. Download the latest release package from [Downloads](https://github.com/pstgi/school-locator-documentation/tree/main/Downloads).
 1. Unzip the package in the root of your website, which will create a `/dist` folder.
 1. [Add a reference](#add-references-to-the-widgets-files) to the widget's files in the `<head>` of your page.
 1. [Add the HTML element](#add-the-widgets-html-element) of the widget to the `<body>` of your page.
@@ -31,10 +31,10 @@ To use the widget, you need to:
 
 The following features are supported by the widget:
 
-- [x] Search of schools by typing an address
-- [x] Retrieve school boundaries for the grades offered by schools
-- [x] Display schools and school boundaries on a map
-- [x] Display notices to users for specific schools, programs, and grades
+- Search of schools by typing an address
+- Retrieve school boundaries for the grades offered by schools
+- Display schools and school boundaries on a map
+- Display notices to users for specific schools, programs, and grades
 
 For more details on features and updates see the [change log](CHANGELOG.md).
 
@@ -83,7 +83,7 @@ Here are the details for each step listed above:
 
 #### Download the widget
 
-You can download the latest version of the widget from the [/Downloads](./Downloads) folder.
+You can download the latest version of the widget from [Downloads](https://github.com/pstgi/school-locator-documentation/tree/main/Downloads).
 Always use the latest version of the widget. Check the [change log](./CHANGELOG.md) for the
 changes in each version and attempt to update your website on regular basis. PSTGI updates the
 widget often to fix bugs and add new features.
