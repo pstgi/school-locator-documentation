@@ -10,13 +10,19 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.10.2 (2024-06-27)
+
+- Filter school list to display only schools with study area polygons.
+- Removed duplicate school years when current and next year are set the same.
+- Replaced Grade Code with the Grade Alias, in addition to Grade Name.
+
 ## ver.3.10.1 (2024-06-17)
 
 - Added study area notices to query for school list by address.
 
 ## ver.3.10.0 (2024-06-12) `includes new widget version`
 
-- Return only school programs by current scenario.
+- Returns only school programs in the selected scenario.
 - Added grade ranges to school list end-point.
 - Added endpoint to serve boundary for a given school-program-grade.
 - Optimized widget code for building the distributable.
