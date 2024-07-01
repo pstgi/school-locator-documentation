@@ -242,8 +242,8 @@ https://api.spsplus.ca/.
 
 All HTTP Requests must contain the following header parameters:
 
-- `Authorization` - (required) API Key you obtained from PSTGI
-- `X-Api-Version` - (required) version of the end-point set you want to use. Currently, the latest
+- `X-API-Key`     - (required) API Key you obtained from PSTGI
+- `X-API-Version` - (required) version of the end-point set you want to use. Currently, the latest
    and recommended version is `3.0`. To use another one, first comfirm with the PSTGI team.
 
 ### API End-points
@@ -266,7 +266,7 @@ https://dev.spsplus.ca/app/api-demo.html?api-url=https%3A%2F%2Fdev.spsplus.ca&ap
 ### Resolving issues
 
 If you do not receive a response from the server, check for the error message in the response.
-Most common issues are related to not having the `Authorization` API key or the `X-Api-Version`
+Most common issues are related to not having the `X-API-Key` API key or the `X-API-Version`
 value in the header.
 
 Always try the test URL in your browser for the [Development](https://dev.spsplus.ca/api/test/ping)
