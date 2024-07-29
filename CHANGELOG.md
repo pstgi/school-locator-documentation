@@ -10,6 +10,23 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.13.2 (2024-07-29)
+
+- Fixed issue where school list does not appear for some boards.
+- Group grades in ranges based on GradeOrder.
+
+## ver.3.13.1 (2024-07-11)
+
+- Fixed issue when grade aliases do not exist for all grades.
+
+## ver.3.13.0 (2024-07-10)
+
+- Added settings for geographical envelope of the map at initial load.
+
+## ver.3.12.0 (2024-07-04)
+
+- Added support for Azure Maps
+
 ## ver.3.11.0 (2024-07-01)
 
 - Allow authorization header parameter 'X-API-Key' as an optional name to adhere to OpenAPI 3.0.
