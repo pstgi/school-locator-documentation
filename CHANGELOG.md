@@ -10,6 +10,10 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.13.3 (2024-07-30)
+
+- Fix missing schools when one or more grades are marked as invisible.
+
 ## ver.3.13.2 (2024-07-29)
 
 - Fixed issue where school list does not appear for some boards.
