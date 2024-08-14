@@ -148,6 +148,12 @@ The following parameters customize the look and feel of the widget:
 - `bing-maps-key` - (optional) key for Bing Maps that you obtained directly from [Microsoft Bing
    Dev Center website](https://www.bingmapsportal.com/); if omitted, a fallback to
    [Open Street Map](https://www.openstreetmap.org/) raster is used.
+- `azure-maps-key` - (optional) key for Azure Maps that you obtained directly from
+   [Microsoft](https://azure.microsoft.com/en-gb/products/azure-maps/); if omitted, a fallback to
+   [Open Street Map](https://www.openstreetmap.org/) raster is used.
+-  `default-program-code` - (optional) preselects the program with the given code (case sensitive).
+   Only Schools offering that program will appear in search results, unless the user selects other
+   programs in the advanced search filters.
 
 #### Examples
 
@@ -183,6 +189,17 @@ The following example will use the development environment and also set a dark b
 	boundary-color="#000055"
 	api-key="67dd753e-2c5e-48dd-9b11-b15f76f09878"
 	api-url="https://dev.spsplus.ca">
+</sps-school-locator>
+```
+
+This configuration only shows Schools offering the Regular Track program (verify that the code for
+that program is `RT`) in search results.
+
+```html
+<sps-school-locator
+    primary-color="#005fae"
+	api-key="67dd753e-2c5e-48dd-9b11-b15f76f09878"
+    default-program-code="RT">
 </sps-school-locator>
 ```
 
