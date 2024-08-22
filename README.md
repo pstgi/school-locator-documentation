@@ -126,7 +126,18 @@ same page.
 ```html
 <sps-school-locator api-key="my-api-key-here"></sps-school-locator>
 ```
-, where you should replace `my-api-key-here` with the API Key you obtained from PSTGI.
+where you should replace `my-api-key-here` with the API Key you obtained from PSTGI.
+
+###### School list element
+
+Optionally, a second element listing all the schools can be placed anywhere in the same HTML page, usually right below the main school locator.
+
+```html
+<sps-schools></sps-schools>
+```
+That element doesn't have any parameters. It cannot function without the main `sps-school-locator` widget.
+
+###### Testing the widget
 
 At this point, if you load the page in your browser, you should see the widget with the search
 box. Try typing an address in it and see if the widget can suggest addresses based on its
@@ -201,6 +212,17 @@ that program is `RT`) in search results.
 	api-key="67dd753e-2c5e-48dd-9b11-b15f76f09878"
     default-program-code="RT">
 </sps-school-locator>
+```
+
+Example of a school locator widget followed by a school list component:
+
+```html
+<sps-school-locator
+    primary-color="#005fae"
+	api-key="67dd753e-2c5e-48dd-9b11-b15f76f09878">
+</sps-school-locator>
+
+<sps-schools></sps-schools>
 ```
 
 ### Updating an existing page
