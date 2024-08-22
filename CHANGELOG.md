@@ -10,6 +10,21 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.13.6 (2024-08-16) `includes new widget version`
+
+- Program type selector shows if a single program type is preselected.
+- Improving database readin performance.
+- Optimizing reading school list by address.
+- Changed address input placeholder text.
+
+## ver.3.13.5 (2024-08-01)
+
+- Preselect the current school year.
+
+## ver.3.13.4 (2024-07-31)
+
+- Replace invisible school grades with the closest ones.
+
 ## ver.3.13.3 (2024-07-30)
 
 - Fix missing schools when one or more grades are marked as invisible.
