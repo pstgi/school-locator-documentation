@@ -149,8 +149,15 @@ different programs and grades.
 The following parameters customize the look and feel of the widget:
 
 - `api-key` - (required) API Key you obtained from PSTGI
-- `primary-color` - (required) accent color to be used for a better integration into your page
-- `boundary-color` - (optional) fill color for boundaries (default: `#3388ff`)
+- `primary-color` - (required) accent color to be used for a better integration into your page.
+   It should be a dark color for a good contrast with the white background.
+- `boundary-color` - (optional) fill color for boundaries (default: `#3388ff`), ignored if `cut-out-boundary` is `true`.
+   An additional 20% transparency is applied to allow the map below to be seen.
+- `cut-out-boundary` - (optional) if set to `true`, the school boundary is drawn as a cut-out shape,
+   leaving the boundary transparent and overlaying the outside with a light grey transparency.
+   When `cut-out-boundary` is used, `boundary-color` is ignored.
+- `contrast-color` - (optional) fill color for the search input field (default is white: `#ffffff`).
+   It should be set to a very light color, like this yellow `#ffffee` for instance.
 - `api-url` - (optional) API server base URL (default: `https://api.spsplus.ca`); for development,
    you can use `https://dev.spsplus.ca`. Consider that the data you reteive from the development
    environment may be different from the production environment.
