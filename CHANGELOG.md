@@ -13,7 +13,7 @@ without the need to update your copy of the widget.
 ## ver.3.13.6 (2024-08-16) `includes new widget version`
 
 - Program type selector shows if a single program type is preselected.
-- Improving database readin performance.
+- Improving database reading performance.
 - Optimizing reading school list by address.
 - Changed address input placeholder text.
 
