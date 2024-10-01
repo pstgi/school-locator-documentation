@@ -24,6 +24,10 @@ without the need to update your copy of the widget.
 - Added endpoints for parsing addresses from a single string.
 - Modified parsing result to return error message for failed ones.
 
+## ver.3.13.7 (2024-09-20) `includes new widget version`
+
+- Fixed top and bottom filters.
+
 ## ver.3.13.6 (2024-08-16) `includes new widget version`
 
 - Program type selector shows if a single program type is preselected.
