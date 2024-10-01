@@ -10,6 +10,20 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+
+## ver.3.14.2 (2024-10-01)
+
+- Added endpoint for looking up postal codes.
+
+## ver.3.14.1 (2024-09-30)
+
+- Changed bulk parsing endpoint from GET to POST.
+
+## ver.3.14.0 (2024-09-25)
+
+- Added endpoints for parsing addresses from a single string.
+- Modified parsing result to return error message for failed ones.
+
 ## ver.3.13.6 (2024-08-16) `includes new widget version`
 
 - Program type selector shows if a single program type is preselected.
