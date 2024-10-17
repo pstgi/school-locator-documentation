@@ -10,6 +10,10 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.15.0 (2024-10-17)
+
+- Returns array of results even with bad addresses.
+- Added endpoint to lookup "Out-of-Zone" addresses.
 
 ## ver.3.14.2 (2024-10-01)
 
