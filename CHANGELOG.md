@@ -10,6 +10,22 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.16.3 (2024-12-12)
+
+- Grade low and high values returned in the list of schools show only visible grade.
+
+## ver.3.16.2 (2024-11-19)
+
+- Protect against null official street name values in suggested addresses.
+
+## ver.3.16.1 (2024-11-13)
+
+- Fixed not returning schools when at least one school offers only invisible grades.
+
+## ver.3.16.0 (2024-11-05)
+
+- Added bulk parsing endpoints.
+
 ## ver.3.15.0 (2024-10-17)
 
 - Returns array of results even with bad addresses.
