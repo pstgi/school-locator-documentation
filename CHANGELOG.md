@@ -10,6 +10,10 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.16.4 (2024-12-19)
+
+- Fix wrong grade ranges for some schools.
+
 ## ver.3.16.3 (2024-12-12)
 
 - Grade low and high values returned in the list of schools show only visible grade.
