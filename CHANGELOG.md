@@ -10,6 +10,11 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.16.6 (2025-01-13)
+
+- Expand Parsed Address DTO to contain necessary field for Pstr fields.
+- Added release date and time information to the Ping response.
+
 ## ver.3.16.5 (2025-01-06)
 
 - Fix grade ranges when first and last grades are invisible.
