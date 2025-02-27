@@ -10,6 +10,23 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver 3.16.9 (2025-02-27)
+
+- Allows search of addresses that include apostrophe.
+
+## ver 3.16.8 (2025-02-26)
+
+- Removed end-dated grades from school list.
+
+## ver 3.16.7 (2025-01-30)
+
+- Added more information to the Ping endpoint.
+- Some work on the parsing endpoints.
+
+## ver.3.16.6 (2025-01-13)
+
+- Converts white spaces to a single space during bulk address parsing.
+
 ## ver.3.16.6 (2025-01-13)
 
 - Expand Parsed Address DTO to contain necessary field for Pstr fields.
