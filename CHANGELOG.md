@@ -10,6 +10,16 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver 3.16.11 (2025-03-05)
+
+- Handles missing postal code.
+- Increased Address1 size to 150 characters.
+- Splits notifications for combined study areas.
+
+## ver 3.16.10 (2025-02-27)
+
+- Filters schools with state different than "Active".
+
 ## ver 3.16.9 (2025-02-27)
 
 - Allows search of addresses that include apostrophe.
