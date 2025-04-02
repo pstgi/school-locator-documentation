@@ -10,6 +10,12 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver 3.17.0 (2025-04-02)
+
+- Added support for Foreign Tables V5.
+- Speed up notice retrieval.
+- Added street name qualifier to cloud parsing.
+
 ## ver 3.16.11 (2025-03-05)
 
 - Handles missing postal code.
