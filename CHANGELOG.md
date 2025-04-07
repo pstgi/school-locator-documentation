@@ -12,6 +12,7 @@ without the need to update your copy of the widget.
 
 ## ver 3.17.1 (2025-04-07)
 
+- Added Postal Code City to the suggested address details, in addition to Zone.
 - Added configuration check before executing a request.
 - Added automated linking between query versions and seggestion endpoints.
 
