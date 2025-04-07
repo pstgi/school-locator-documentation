@@ -10,6 +10,11 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver 3.17.1 (2025-04-07)
+
+- Added configuration check before executing a request.
+- Added automated linking between query versions and seggestion endpoints.
+
 ## ver 3.17.0 (2025-04-02)
 
 - Added support for Foreign Tables V5.
