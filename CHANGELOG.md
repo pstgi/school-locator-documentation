@@ -10,6 +10,10 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.18.0 (2024-05-21) `includes new widget version`
+
+- When an address is already selected and the school year is changed, schools are searched again for that year
+
 ## ver 3.17.1 (2025-04-07)
 
 - Added Postal Code City to the suggested address details, in addition to Zone.
