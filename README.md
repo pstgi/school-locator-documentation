@@ -164,7 +164,12 @@ The following parameters customize the look and feel of the widget:
 - `images-root-url` - (optional) path to images folder containing pin images and shadow; must end
    with a `/`; (default: `dist/images/`).
 - `azure-maps-key` - (optional) key for Azure Maps that you obtained directly from
-   [Microsoft](https://azure.microsoft.com/en-gb/products/azure-maps/); if omitted, a fallback to
+   [Microsoft](https://azure.microsoft.com/en-gb/products/azure-maps/); if omitted, and `bing-maps-key`
+   is not set, a fallback to
+   [Open Street Map](https://www.openstreetmap.org/) raster is used.
+- `bing-maps-key` - (optional) only for paid Bing Maps Enterprise license: key for Bing Maps that 
+   you obtained directly from [Microsoft Bing Dev Center website](https://www.bingmapsportal.com/);
+   if omitted, and `azure-maps-key` is not set, a fallback to 
    [Open Street Map](https://www.openstreetmap.org/) raster is used.
 -  `default-program-code` - (optional) preselects the program with the given code (case sensitive).
    Only Schools offering that program will appear in search results, unless the user selects other
