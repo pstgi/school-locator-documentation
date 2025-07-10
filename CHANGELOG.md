@@ -10,9 +10,17 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
-## ver.3.18.0 (2024-05-21) `includes new widget version`
+## ver.3.19.1 (2025-07-10) `includes new widget version`
 
-- When an address is already selected and the school year is changed, schools are searched again for that year
+- Fix initial zoom level when widget is hidden during initialization.
+
+## ver.3.19.0 (2025-06-09)
+
+- Added support for StreetPerfect address parsing service.
+
+## ver 3.18.0 (2025-05-21) `includes new widget version`
+
+- Fixed retrieval of addresses When an address is already selected and the school year is changed.
 
 ## ver 3.17.1 (2025-04-07)
 
@@ -22,7 +30,7 @@ without the need to update your copy of the widget.
 
 ## ver 3.17.0 (2025-04-02)
 
-- Added support for Foreign Tables V5.
+- Added support for Foreign Table versions relative to search function ones.
 - Speed up notice retrieval.
 - Added street name qualifier to cloud parsing.
 

@@ -109,8 +109,8 @@ need to add the following two lines in the header section (between `<head>` and 
 of your HTML page:
 
 ```html
-<link href="dist/sps-school-locator.css?v=1.4" rel="stylesheet" />
-<script src="dist/sps-school-locator.js?v=1.4"></script>
+<link href="dist/sps-school-locator.css?v=3.19.1" rel="stylesheet" />
+<script src="dist/sps-school-locator.js?v=3.19.1"></script>
 ```
 
 It is recommended to change the value of the `v` parameter located after the `?v=` to the
@@ -248,12 +248,12 @@ cached version in their browsers.
 
 The version is specified as a `v` parameter of the `href` and `src` attributes of the
 `<link>` and `<script>` tags respectively. Use the version number of the downloaded package.
-For example, if you downloaded version 1.4, you need to change the value after `?v=` in
+For example, if you downloaded version 3.19.1, you need to change the value after `?v=` in
 the following lines:
 
 ```html
-<link href="dist/sps-school-locator.css?v=1.4" rel="stylesheet" />
-<script src="dist/sps-school-locator.js?v=1.4"></script>
+<link href="dist/sps-school-locator.css?v=3.19.1" rel="stylesheet" />
+<script src="dist/sps-school-locator.js?v=3.19.1"></script>
 ```
 
 > Technically, you can change the value with any number that is different from all of the
