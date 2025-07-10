@@ -163,9 +163,6 @@ The following parameters customize the look and feel of the widget:
    environment may be different from the production environment.
 - `images-root-url` - (optional) path to images folder containing pin images and shadow; must end
    with a `/`; (default: `dist/images/`).
-- `bing-maps-key` - (optional) key for Bing Maps that you obtained directly from [Microsoft Bing
-   Dev Center website](https://www.bingmapsportal.com/); if omitted, a fallback to
-   [Open Street Map](https://www.openstreetmap.org/) raster is used.
 - `azure-maps-key` - (optional) key for Azure Maps that you obtained directly from
    [Microsoft](https://azure.microsoft.com/en-gb/products/azure-maps/); if omitted, a fallback to
    [Open Street Map](https://www.openstreetmap.org/) raster is used.
@@ -195,7 +192,7 @@ website. It will display Bing Maps instead of Open Street Map.
 <sps-school-locator
     primary-color="#005fae"
     api-key="67dd753e-2c5e-48dd-9b11-b15f76f09878"
-    bing-maps-key="SSBhbSBub3Qgc3VyZSB3aGF0IGtleSBJIHdpbGwgZ2V0IGZyb20gQmluZy">
+    azure-maps-key="SSBhbSBub3Qgc3VyZSB3aGF0IGtleSBJIHdpbGwgZ2V0IGZyb20gQmluZy">
 </sps-school-locator>
 ```
 
