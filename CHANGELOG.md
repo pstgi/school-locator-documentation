@@ -10,9 +10,18 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.19.3 (2025-08-06) `includes new widget version`
+
+- Fixed for missing school notices in general school list.
+- Fixed filtering of schools by program type and grade.
+
+## ver.3.19.2 (2025-07-23) 
+
+- Updated script for assigning Address GUID during Bulk Parsing operation.
+
 ## ver.3.19.1 (2025-07-10) `includes new widget version`
 
-- Fix initial zoom level when widget is hidden during initialization.
+- Fixed initial zoom level when widget is hidden during initialization.
 
 ## ver.3.19.0 (2025-06-09)
 
