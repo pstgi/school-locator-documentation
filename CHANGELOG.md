@@ -10,9 +10,13 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
-## ver.3.19.5 (2025-10-02)
+## ver.3.19.6 (2025-10-02)
 
-- Add handling of Location as alternative to Zone in Bulk Parsing operation.
+- Added handling of Location as alternative to Zone in Bulk Parsing operation.
+
+## ver.3.19.5 (2025-09-09) `includes new widget version`
+
+- Replaced the notices icon with an "Important message" red link.
 
 ## ver.3.19.4 (2025-09-01)
 
