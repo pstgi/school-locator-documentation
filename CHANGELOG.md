@@ -10,9 +10,13 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
-## ver.3.19.4 (2025-09-01) 
+## ver.3.19.5 (2025-10-02)
 
-- Fix missing messages for boards where grade IDs are not sequential.
+- Add handling of Location as alternative to Zone in Bulk Parsing operation.
+
+## ver.3.19.4 (2025-09-01)
+
+- Fixed missing messages for boards where grade IDs are not sequential.
 
 ## ver.3.19.3 (2025-08-06) `includes new widget version`
 
