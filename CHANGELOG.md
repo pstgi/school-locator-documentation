@@ -10,6 +10,10 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.19.7 (2025-10-27)
+
+- Added Locality to address search conditions.
+
 ## ver.3.19.6 (2025-10-02)
 
 - Added handling of Location as alternative to Zone in Bulk Parsing operation.
