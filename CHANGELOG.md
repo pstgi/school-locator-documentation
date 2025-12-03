@@ -10,6 +10,10 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.19.9 (2025-12-03)
+
+- Allows search of Out-of-Region addresses based on partial match.
+
 ## ver.3.19.8 (2025-11-05)
 
 - Accommodates cloud parsing of reversed house number-unit order.
