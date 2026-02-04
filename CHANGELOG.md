@@ -10,6 +10,14 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.19.12 (2026-02-04) `includes new widget version`
+
+- Preserves ranked sorting for suggested addresses.
+
+## ver.3.19.11 (2026-01-05)
+
+- Added tenant setting for house number and suffix order.
+
 ## ver.3.19.10 (2025-12-18)
 
 - Added protection for tenants with no data to return appropriate responses.
