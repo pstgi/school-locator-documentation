@@ -10,6 +10,15 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.21.0 (2026-02-24)
+
+- Added support for US address parsing dictionaries and rules.
+
+## ver.3.20.0 (2026-02-23)
+
+- Fixed SQL queries to avoid parsing error in Postal Code lookup.
+- Removed legacy endpoints - API version 2.0.
+
 ## ver.3.19.12 (2026-02-04) `includes new widget version`
 
 - Preserves ranked sorting for suggested addresses.
