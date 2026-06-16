@@ -10,6 +10,10 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.22.1 (2026-06-16) `includes new widget version`
+
+- Added separators between messages for schools.
+
 ## ver.3.22.0 (2026-06-15) `includes new widget version`
 
 - Upgraded .NET version to 10.
@@ -17,7 +21,7 @@ without the need to update your copy of the widget.
 
 ## ver.3.21.2 (2026-06-10)
 
-- Improve performance of Bulk Parsing of addresses.
+- Improved performance of Bulk Parsing of addresses.
 
 ## ver.3.21.1 (2026-04-02)
 
