@@ -10,6 +10,14 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.22.3 (2026-07-02)
+
+- Fixed issue when Study Area contains only invisible grades.
+
+## ver.3.22.2 (2026-07-01)
+
+- Added support for bulk address parsing in chunks.
+
 ## ver.3.22.1 (2026-06-16) `includes new widget version`
 
 - Added separators between messages for schools.
