@@ -10,6 +10,10 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.23.0 (2026-07-07) `includes new widget version`
+
+- Image files for map pins are replaced with embedded pins. The `images-root-url` parameter is no longer used and there is no more `images` sub-folder in `dist`.
+
 ## ver.3.22.3 (2026-07-02)
 
 - Fixed issue when Study Area contains only invisible grades.
