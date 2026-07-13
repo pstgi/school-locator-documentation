@@ -61,7 +61,7 @@ return a JSON response similar to the one below:
 {
   "message": "Pong",
   "status": "Service is running.",
-  "appVersion": "3.22.1",
+  "appVersion": "3.23.0",
   "releaseDate": "2026-06-15T11:15:40+00:00",
   "osVersion": "Microsoft Windows NT 10.0.20348.0",
   "serverTime": "2026-06-15T11:19:34.6688395+00:00",
@@ -103,7 +103,7 @@ to keep the widget's `/dist` folder in the root folder of your website.
 
 > If you cannot create or place a `/dist` folder in the root folder of your website, you will
 need to change the paths to the widget's files in the HTML code below in several places -
-both links in the `<head>` and the `images-root-url` parameter in the widget's HTML element.
+both links in the `<head>` of the widget's HTML element.
 
 ##### Add references to the widget's files
 
@@ -112,8 +112,8 @@ need to add the following two lines in the header section (between `<head>` and 
 of your HTML page:
 
 ```html
-<link href="dist/sps-school-locator.css?v=3.22.1" rel="stylesheet" />
-<script src="dist/sps-school-locator.js?v=3.22.1"></script>
+<link href="dist/sps-school-locator.css?v=3.23.0" rel="stylesheet" />
+<script src="dist/sps-school-locator.js?v=3.23.0"></script>
 ```
 
 It is recommended to change the value of the `v` parameter located after the `?v=` to the
@@ -164,8 +164,6 @@ The following parameters customize the look and feel of the widget:
 - `api-url` - (optional) API server base URL (default: `https://api.spsplus.ca`); for development,
    you can use `https://dev.spsplus.ca`. Consider that the data you reteive from the development
    environment may be different from the production environment.
-- `images-root-url` - (optional) path to images folder containing pin images and shadow; must end
-   with a `/`; (default: `dist/images/`).
 - `azure-maps-key` - (optional) key for Azure Maps that you obtained directly from
    [Microsoft](https://azure.microsoft.com/en-gb/products/azure-maps/); if omitted, and `bing-maps-key`
    is not set, a fallback to
@@ -181,8 +179,7 @@ The following parameters customize the look and feel of the widget:
 #### Examples
 
 The following example shows how to integrate the widget in your website. It will have a blue accent
-color, use the default boundary color, and use the default API server URL. The widget will use
-the default images for the map pins that came with the downloaded package.
+color, use the default boundary color, and use the default API server URL.
 
 > All keys in the examples below are fake and will not work. You must use keys you obtaine yourself.
 
@@ -220,9 +217,9 @@ that program is `RT`) in search results.
 
 ```html
 <sps-school-locator
-    primary-color="#005fae"
+   primary-color="#005fae"
 	api-key="67dd753e-2c5e-48dd-9b11-b15f76f09878"
-    default-program-code="RT">
+   default-program-code="RT">
 </sps-school-locator>
 ```
 
@@ -230,7 +227,7 @@ Example of a school locator widget followed by a school list component:
 
 ```html
 <sps-school-locator
-    primary-color="#005fae"
+   primary-color="#005fae"
 	api-key="67dd753e-2c5e-48dd-9b11-b15f76f09878">
 </sps-school-locator>
 
@@ -251,12 +248,12 @@ cached version in their browsers.
 
 The version is specified as a `v` parameter of the `href` and `src` attributes of the
 `<link>` and `<script>` tags respectively. Use the version number of the downloaded package.
-For example, if you downloaded version 3.22.1, you need to change the value after `?v=` in
+For example, if you downloaded version 3.23.0, you need to change the value after `?v=` in
 the following lines:
 
 ```html
-<link href="dist/sps-school-locator.css?v=3.22.1" rel="stylesheet" />
-<script src="dist/sps-school-locator.js?v=3.22.1"></script>
+<link href="dist/sps-school-locator.css?v=3.23.0" rel="stylesheet" />
+<script src="dist/sps-school-locator.js?v=3.23.0"></script>
 ```
 
 > Technically, you can change the value with any number that is different from all of the
