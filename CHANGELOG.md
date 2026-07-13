@@ -10,7 +10,7 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
-## ver.3.22.4 (2026-07-10) `includes new widget version`
+## ver.3.23.0 (2026-07-10) `includes new widget version`
 
 - Replaced map pin images with embedded SVG pins.
 - Fixed missing grades for some schools because of their order.
