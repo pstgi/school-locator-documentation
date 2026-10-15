@@ -10,6 +10,25 @@ the widget are tagged with `includes new widget version` below. You can ignore t
 versions that are not tagged, because they add new functionality or solve problems
 without the need to update your copy of the widget.
 
+## ver.3.25.0 (2026-10-15)
+
+- Optimize access to database model.
+
+## ver.3.24.1 (2026-09-02)
+
+- School Programs do not show ones without a boundary.
+- School List are filtered by scenario and active programs.
+
+## ver.3.24.0 (2026-08-25)
+
+- Added ParseAndLookupAddress endpoint.
+- Fixed Swagger authorization.
+
+## ver.3.23.1 (2026-08-24)
+
+- Fixed misaligned programs and grades between school list and school details.
+- Removed fallback School Year per tenant and use only the ones from Scenarios.
+
 ## ver.3.23.0 (2026-07-10) `includes new widget version`
 
 - Replaced map pin images with embedded SVG pins.
