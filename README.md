@@ -61,12 +61,12 @@ return a JSON response similar to the one below:
 {
   "message": "Pong",
   "status": "Service is running.",
-  "appVersion": "3.25.1",
-  "releaseDate": "2026-06-15T11:15:40+00:00",
+  "appVersion": "3.25.2",
+  "releaseDate": "2026-11-23T12:49:48+00:00",
   "osVersion": "Microsoft Windows NT 10.0.20348.0",
-  "serverTime": "2026-06-15T11:19:34.6688395+00:00",
-  "serverName": "DW1SDWK000LIQ",
-  "environment": "Production"
+  "serverTime": "2026-11-23T12:51:56.7282942+00:00",
+  "serverName": "wn1xsdwk000HPU",
+  "environment": "Development"
 }
 ```
 
